@@ -9,7 +9,13 @@ namespace _07_Ejercicio_Substring2
     {
         static void Main(string[] args)
         {
-           //Introduce aquí tu código
+            //Introduce aquí tu código
+            Console.WriteLine("Introduce una cadena de caracteres:");
+            string cadena = Console.ReadLine();
+
+
+            string cadena1 = cadena.Substring(2, 4);
+            Console.WriteLine(cadena1);
         }
     }
 }

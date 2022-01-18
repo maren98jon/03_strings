@@ -10,6 +10,10 @@ namespace _15_Ejercicio_Replace
         static void Main(string[] args)
         {
             //Introduce aquí tu código
+            string inicial = "Hola Arrate";
+            string cambiada = inicial.Replace("Arrate", "Iker");
+            Console.WriteLine("Este es el string inicial          " + inicial);
+            Console.WriteLine("Este es el string reemplazado      " + cambiada);
         }
     }
 }

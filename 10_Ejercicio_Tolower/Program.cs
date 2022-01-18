@@ -10,6 +10,10 @@ namespace _10_Ejercicio_Tolower
         static void Main(string[] args)
         {
             //Introduce aquí tu código
+            Console.WriteLine("Introduce una frase en mayusc:");
+            string mayus = Console.ReadLine();
+            string minus = mayus.ToLower();
+            Console.WriteLine(minus);
       
         }
     }

@@ -16,6 +16,13 @@ namespace _17_Ejercicio_Repaso02
         static void Main(string[] args)
         {
             //Introduce aquí tu código
+            Console.WriteLine("Introduce una suma:");
+            string suma = Console.ReadLine();
+            int posi = suma.IndexOf("+");
+            string num1 = suma.Substring(0, posi).Trim();
+            string num2 = suma.Substring(posi + 1).Trim();
+            Console.WriteLine("Has sumado: " + num1 + " y " + num2);
+
         }
     }
 }

@@ -14,7 +14,12 @@ namespace _16_Ejercicio_Repaso01
     {
         static void Main(string[] args)
         {
-          //Introduce aquí tu código
+            //Introduce aquí tu código
+            Console.WriteLine("Introduce una palabra:");
+            string palabra = Console.ReadLine();
+            int numlet = palabra.Length;
+            string reemplazado = palabra.Replace(palabra.Substring(numlet/2), palabra.Substring(numlet / 2).ToUpper());
+            Console.WriteLine(reemplazado);
         }
     }
 }
